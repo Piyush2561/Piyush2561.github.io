@@ -32,7 +32,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='jumbotron_1200.jpg
+  html += "<img src='images/jumbotron_1200.jpg
 '></div>";
   insertHtml(selector, html);
 };
